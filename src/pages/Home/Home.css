@@ -1,0 +1,63 @@
+.category-area {
+    border: 2px solid #847d7d;
+    margin-right: 30px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.category-area h4 {
+    padding: 0 25px !important;
+    font-size: 20px;
+}
+
+.category-area img {
+    object-fit: cover;
+    box-sizing: border-box;
+    margin: -3px;
+}
+
+.selected-category {
+    border: 3px solid rgb(1, 87, 87);
+}
+
+/* Default styles */
+.category-area {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styles for smaller screens */
+  @media (max-width: 576px) {
+    .top-filter-menu {
+      flex-wrap: wrap;
+    }
+  
+    .category-area {
+      flex: 1 0 48%; /* Two items per row */
+    }
+  }
+  
+  /* Styles for medium-sized screens */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .category-area {
+      flex: 1 0 30%; /* Three items per row */
+    }
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 769px) {
+    .category-area {
+      flex: 1 0 20%; /* Five items per row */
+    }
+  }
+  
+  /* Styles for selected category */
+  .selected-category {
+    background-color: #e0e0e0; /* Add your selected category background color here */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

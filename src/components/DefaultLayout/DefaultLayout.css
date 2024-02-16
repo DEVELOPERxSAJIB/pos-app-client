@@ -1,0 +1,88 @@
+.ant-layout-has-sider {
+  padding: 25px !important;
+}
+
+.ant-layout-header {
+  border-radius: 10px !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-left: 25px !important;
+}
+
+.ant-layout-content {
+  margin-left: 25px !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+  height: 85vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.ant-layout-sider {
+  padding: 12px 0px;
+  padding-right: 10px;
+  height: 95vh;
+  border-radius: 10px !important;
+}
+
+.ant-btn-icon svg {
+  font-size: 20px;
+}
+.demo-logo-vertical {
+  cursor: pointer;
+}
+
+.demo-logo-vertical h3 {
+  color: #047979;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 15px 0;
+  border-bottom: 2px solid #047979;
+}
+
+.ant-menu-item-selected {
+  background-color: #047979 !important;
+}
+
+.ant-menu-item {
+  margin-left: 0 !important;
+}
+
+li.ant-menu-item.ant-menu-item-selected {
+  border-radius: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+Link {
+  text-decoration: none;
+}
+
+.cart-area {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.cart-area .cart-icon {
+  font-size: 24px;
+}
+.cart-area p {
+  margin: 0;
+  font-size: 20px;
+}
+
+
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  inset: 0;
+  background-color: #00152937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}

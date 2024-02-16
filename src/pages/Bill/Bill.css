@@ -1,0 +1,17 @@
+.print-area {
+  color: #444;
+}
+
+.print-area h4 {
+    margin: 0;
+}
+
+.print-area .shop-address p,
+.print-area .bill-details p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.border-dashed {
+  border: 1px dashed #333;
+}

@@ -1,0 +1,24 @@
+.quantity-des {
+  font-size: 18px;
+}
+
+.cur-poi {
+  cursor: pointer;
+}
+
+.bill-info {
+  text-align: right;
+}
+
+.bill-info h4 {
+  color: crimson;
+  margin-bottom: 10px;
+}
+
+.charge-bill-btn {
+  background-color: #047979 !important;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}

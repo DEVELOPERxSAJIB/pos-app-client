@@ -1,0 +1,36 @@
+.item {
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0 0 3px rgba(128, 127, 127, 0.8);
+}
+
+.item img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: crimson;
+}
+
+.item h4 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 7px;
+}
+
+.item Button {
+    background-color: #047979 !important;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}

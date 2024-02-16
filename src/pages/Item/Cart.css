@@ -1,0 +1,28 @@
+.create-button {
+  background-color: #047979 !important;
+  color: #fff;
+}
+.create-button:hover {
+  background-color: #036b6b !important;
+  color: #fff !important;
+}
+
+input {
+  border: 1px solid #047979 !important;
+}
+.ant-select-selector {
+  border: 1px solid #047979 !important;
+}
+
+input:focus {
+  border: 0;
+  outline: none;
+}
+
+.add-item-btn {
+  background-color: #047979 !important;
+  font-size: 16px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
